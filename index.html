@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      padding:0px;
+      margin:0px;
+      box-sizing: border-box;
+      font-family: outfit,sans-serif;
+      font-size: 15px;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      display:flex;
+      justify-content: center;
+      align-content: center;
+      background-color:hsl(212, 45%, 89%);
+      height:80vh;
+      width:100%;
+/*
+- Slate 500: hsl(216, 15%, 48%)
+- Slate 900: hsl(218, 44%, 22%) */
+    }
+    .card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      height:310px;
+      width:200px;
+      border-radius: 10px;
+      background-color: hsl(0, 0%, 100%);
+      align-items: center;
+      margin-top: 30vh;
+    }
+    .cont{
+      font-size: 15px;
+      height:100px ; 
+      width:90%;
+      text-align: center;
+    }
+    
+    img{
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="./images/image-qr-code.png" style="height:180px ; width:180px;" />
+    <div class="cont">
+      <p style="color:hsl(218, 44%, 22%);font-weight:700">
+      Improve your front-end skills by building projects
+      </p>
+      <p style="color:hsl(216, 15%, 48%);font-weight:400;margin-top:10px;font-size:10px">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </p >
+    </div>
+    
+  </div>
+</body>
+</html>
